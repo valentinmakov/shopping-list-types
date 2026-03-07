@@ -1,13 +1,13 @@
 {
-  "name": "shopping-list-types",
-  "version": "1.0.0",
-  "description": "Shared types for shopping-list-app and shopping-list-backend",
-  "main": "dist/index.js",
-  "types": "dist/index.d.ts",
-  "scripts": {
-    "build": "tsc"
-  },
-  "devDependencies": {
-    "typescript": "^5.8.3"
-  }
+    "name": "shopping-list-types",
+    "version": "1.0.0",
+    "description": "Shared types for shopping-list-app and shopping-list-backend",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "build": "tsc"
+    },
+    "devDependencies": {
+        "typescript": "^5.8.3"
+    }
 }

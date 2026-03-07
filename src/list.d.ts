@@ -1,5 +1,5 @@
-import type { ListId, ProductId } from './id';
-import type { EntityMeta } from './entityMeta';
+import type {ListId, ProductId} from './id';
+import type {EntityMeta} from './entityMeta';
 export type List = EntityMeta<ListId> & {
     pending: Set<ProductId>;
     purchased: Set<ProductId>;

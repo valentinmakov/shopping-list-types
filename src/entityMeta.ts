@@ -3,7 +3,7 @@
 export type ScreenName = string | null;
 
 export type EntityMeta<Id extends string> = {
-  id: Id;
-  lastModified: number;
-  name: ScreenName;
+    id: Id;
+    lastModified: number;
+    name: ScreenName;
 };

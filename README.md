@@ -6,8 +6,8 @@ Shared TypeScript types for the shopping list app and backend. Defines the WebSo
 
 This package is intended to be used as a git submodule in:
 
-- `shopping-list-app`
-- `shopping-list-backend`
+-   `shopping-list-app`
+-   `shopping-list-backend`
 
 ### Build
 
@@ -22,9 +22,9 @@ In the consuming project's `package.json`:
 
 ```json
 {
-  "dependencies": {
-    "shopping-list-types": "file:../shopping-list-types"
-  }
+    "dependencies": {
+        "shopping-list-types": "file:../shopping-list-types"
+    }
 }
 ```
 

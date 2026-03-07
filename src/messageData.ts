@@ -4,6 +4,6 @@ import type {Product} from './product';
 
 /** Payload in messages: ShoppingState-like without users; lists/products optional; list ids as arrays. */
 export type MessageData = {
-  lists?: Record<ListId, ListMessageData>;
-  products?: Record<ProductId, Product>;
+    lists?: Record<ListId, ListMessageData>;
+    products?: Record<ProductId, Product>;
 };
