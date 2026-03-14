@@ -1,6 +1,7 @@
 export type {ListId, ProductId, UserId} from './id';
 export type {EntityMeta, ScreenName} from './entityMeta';
 export type {Product} from './product';
+export type {ProductColorType} from './productColorType';
 export type {List} from './list';
 export type {ShoppingState} from './shoppingState';
 export type {ListMessageData} from './listMessageData';
