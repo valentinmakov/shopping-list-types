@@ -4,28 +4,15 @@ Shared TypeScript types for the shopping list app and backend. Defines the WebSo
 
 ## Usage
 
-This package is intended to be used as a git submodule in:
+This repo is used as a git submodule. Clone it into your consumer's source tree (e.g. `src/shared-types/`) and import directly:
 
--   `shopping-list-app`
--   `shopping-list-backend`
-
-### Build
-
-```bash
-yarn install
-yarn build
+```typescript
+import type { Product, ShoppingState } from './shared-types/src';
 ```
 
-### As dependency
+No build, no package.json—just plain `.ts` files.
 
-In the consuming project's `package.json`:
+## Consumers
 
-```json
-{
-    "dependencies": {
-        "shopping-list-types": "file:../shopping-list-types"
-    }
-}
-```
-
-Adjust the path to match where the submodule is cloned.
+- shopping-list-app
+- shopping-list-backend

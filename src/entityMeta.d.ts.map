@@ -1,1 +1,0 @@
-{"version":3,"file":"entityMeta.d.ts","sourceRoot":"","sources":["entityMeta.ts"],"names":[],"mappings":"AACA,yBAAyB;AACzB,MAAM,MAAM,UAAU,GAAG,MAAM,GAAG,IAAI,CAAC;AAEvC,MAAM,MAAM,UAAU,CAAC,EAAE,SAAS,MAAM,IAAI;IAC1C,EAAE,EAAE,EAAE,CAAC;IACP,YAAY,EAAE,MAAM,CAAC;IACrB,IAAI,EAAE,UAAU,CAAC;CAClB,CAAC"}
