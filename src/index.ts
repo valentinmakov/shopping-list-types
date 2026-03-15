@@ -1,10 +1,12 @@
-export type {ListId, ProductId, UserId} from './id';
+export type {ListId, ProductId, ReferenceListId, UserId} from './id';
 export type {EntityMeta, ScreenName} from './entityMeta';
 export type {Product} from './product';
 export type {ProductColorType} from './productColorType';
 export type {List} from './list';
+export type {ReferenceList} from './referenceList';
 export type {ShoppingState} from './shoppingState';
 export type {ListMessageData} from './listMessageData';
+export type {ReferenceListMessageData} from './referenceListMessageData';
 export type {MessageData} from './messageData';
 export type {IncomingMessage} from './incomingMessage';
 export type {OutgoingMessage} from './outgoingMessage';
